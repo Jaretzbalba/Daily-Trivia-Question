@@ -1,0 +1,108 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(rgba(20 10 138), rgba(235 98 144)	);
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userInput {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+.display {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15vw;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+}
+
+button,
+.difficulty {
+  width: 125px;
+  height: 40px;
+  font-size: 1.5rem;
+  box-shadow: 1px 1px #888888;
+  text-align: center;
+}
+
+select {
+  width: 75px;
+  height: 30px;
+  font-size: 1.5rem;
+}
+
+h2,
+p {
+  font-size: 2.5rem;
+  padding-bottom: 15px;
+  color: white;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.choice {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+label {
+  padding-left: 15px;
+}
+
+.finalResult {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

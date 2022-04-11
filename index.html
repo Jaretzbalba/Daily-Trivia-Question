@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Daily Trivia Question</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<h1>Daily Trivia Question</h1>
+		<section class="userInput">
+			<section>
+				<button type="button" name="button" class="genQuest">Generate Question!</button>
+			</section>
+			<section class="dropDown">
+				<select class="difficulty">
+					<option value="easy">Easy</option>
+					<option value="medium">Medium</option>
+					<option value="hard">Hard</option>
+				</select>
+			</section>
+		</section>
+		
+		<section class="display">
+			<h2>Question:</h2>
+			<p class="question"></p>
+			<h2>Choices:</h2>
+			<p class="choices"></p>
+		</section>
+
+		<section class="finalResult">
+			<h2 class="result"></h2>
+			<p class="answer"></p>
+		</section>
+
+		<section>
+			<button type="submit" class="submit">Submit</button>
+		</section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
